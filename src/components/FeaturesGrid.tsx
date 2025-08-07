@@ -1,6 +1,6 @@
 import React from 'react';
-import { Feature } from '../types';
-import { getAnimationDelay } from '../styles';
+import { type Feature } from '../types/types';
+import { getAnimationDelay } from '../../styles';
 
 interface FeaturesGridProps {
   features: Feature[];

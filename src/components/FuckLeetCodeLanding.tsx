@@ -8,20 +8,20 @@ import ProjectsShowcase from './ProjectsShowcase';
 import TestimonialsSection from './TestimonialsSection';
 import CTASection from './CTASection';
 import Footer from './Footer';
-import BackgroundElements from '../src/components/BackgroundElements';
+import BackgroundElements from './BackgroundElements';
 import { 
   useMousePosition, 
   useFloatingElements, 
   useTestimonialRotation, 
   usePageVisibility 
-} from '../hooks';
+} from '../../hooks';
 import { 
   features, 
   testimonials, 
   projects, 
   leetcodeProblems, 
   realWorldSkills 
-} from '../data';
+} from '../../data';
 
 const FuckLeetCodeLanding: React.FC = () => {
   const mousePosition = useMousePosition();

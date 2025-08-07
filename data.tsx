@@ -1,5 +1,5 @@
 import { Code, Zap, Target, Users } from 'lucide-react';
-import { Feature, Testimonial, Project } from './types';
+import { type Feature, type Testimonial,type Project } from './src/types/types';
 
 export const features: Feature[] = [
   {

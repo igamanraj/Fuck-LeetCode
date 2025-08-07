@@ -1,4 +1,4 @@
-import { type MousePosition } from './types';
+import { type MousePosition } from './src/types/types';
 
 export const keyframes = `
   @keyframes float {
@@ -41,7 +41,7 @@ export const gridPattern = {
 export const getFloatingElementStyle = (element: { x: number; y: number; delay: number }) => ({
   left: `${element.x}%`,
   top: `${element.y}%`,
-  animation: `float ${3 + element.delay}s ease-in-out infinite`,
+  animation: `float ${1 + element.delay}s ease-in-out infinite`,
   animationDelay: `${element.delay}s`
 });
 

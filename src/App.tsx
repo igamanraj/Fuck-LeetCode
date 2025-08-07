@@ -1,4 +1,4 @@
-import Fuckleetcode from "../effects/FuckLeetCodeLanding"
+import Fuckleetcode from "./components/FuckLeetCodeLanding"
 import './App.css'
 
 function App() {

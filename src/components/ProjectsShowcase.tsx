@@ -1,7 +1,7 @@
 import React from 'react';
 import { Play } from 'lucide-react';
-import { Project } from '../types';
-import { getDifficultyBadgeStyle } from '../styles';
+import { type Project } from '../types/types';
+import { getDifficultyBadgeStyle } from '../../styles';
 
 interface ProjectsShowcaseProps {
   projects: Project[];

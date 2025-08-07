@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { MousePosition, FloatingElement } from './types';
+import { type MousePosition,type FloatingElement } from './src/types/types';
 import { testimonials } from './data';
 
 export const useMousePosition = () => {
@@ -21,7 +21,7 @@ export const useFloatingElements = () => {
   const [floatingElements, setFloatingElements] = useState<FloatingElement[]>([]);
 
   useEffect(() => {
-    const elements = Array.from({ length: 15 }, (_, i) => ({
+    const elements = Array.from({ length: 100 }, (_, i) => ({
       id: i,
       x: Math.random() * 100,
       y: Math.random() * 100,
